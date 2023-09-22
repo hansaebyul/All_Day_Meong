@@ -1,0 +1,171 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    font-family: 'Vidaloka', sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+  
+.header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+  
+.header .logo{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.highlogo{
+    position: relative;
+    right: 10px;
+    width: 50px;
+}
+  
+.header .logo i{
+    color: var(--secondary);
+    padding-right: .5rem;
+}
+  
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--black);
+    margin: 0 1rem;
+}
+  
+.header .navbar a:hover{
+    color: var(--primary-color);
+}
+  
+.header .icons a{
+    font-size: 1.7rem;
+    margin-left: 1.7rem;
+    color: var(--black)
+}
+  
+.header .icons div:hover{
+    color: var(--primary-color)
+}
+
+.intro_bg{
+    background-image: url("../assets/홈배경.png");
+    width: 100%;
+    margin: 100px auto;
+    height:900px;
+}
+
+.intro_text{
+    width:100%;
+    margin: auto;
+    padding: 300px;
+    text-align: center;
+}
+
+.intro_text > h1,
+.intro_text > h2{
+    color:#fff;
+}
+
+.amount{
+    position: relative;
+    top: -360px;
+    display: flex;
+    width: 1280px;
+    background: #fff;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.amount > li {
+    flex: 1;
+    height: 132px;
+}
+
+.amount > li > div {
+    text-align: center;
+    background: #fff;
+    margin-top: 37px;
+    height: 57px;
+}
+
+.amount > li:not(:last-child) > div{
+    border-right:3px solid rgb(235, 235, 235);
+}
+
+.contents1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.contents1_bold{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.result{
+    font-size: 24px;
+}
+
+.main_text{
+    width: 100%;
+    height: 1000px;
+    background: #f1f2f3;
+    margin-top: -560px;
+}
+
+.main_text > h1{
+    margin-top: 116px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.main_text > .contents1{
+    text-align: center;
+}
+
+.icons1{
+    display: flex;
+    width: 1280px;
+    height: 302px;
+    margin: auto;
+}
+
+.icons1 > li {
+    flex: 1;
+    background: white;
+    height: 302px;
+    margin-top: 49px;
+    text-align: center;
+}
+
+.icons1 > li > .icon_img{
+    margin-top: 36px;
+}
+
+.icons1 > li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.more{
+    width: 100px;
+    height: 30px;
+    background: #2f7af4;
+    color: #fff;
+    line-height: 30px;
+    margin: 10px auto;
+
+}

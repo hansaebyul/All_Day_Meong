@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>올데이멍</title>
+    <link rel="stylesheet" href="./css/mapstyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><img class="highlogo" src="/로그인/assets/로그인-상단로고.png"></a>
+      
+      <nav class="navbar">
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#"><i class="fa-solid fa-map-pin"></i></a>
+        <a href="#"><i class="fa-regular fa-calendar-days"></i></a>
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+        <a href="#"><i class="fa-solid fa-dog"></i></a>
+      </nav>
+
+      <div class="icons">
+        <a href="#"><i class="fa-solid fa-bars"></i></a>
+      </div>
+    </header> 
+
+    <section>
+    <main>
+      <section id="category">
+          <div class="inner">
+            <div class="category-container">
+              <h1 class="category-title">찾고 싶은 종류를 선택하세요</h1>
+              <div class="category-list">
+                <button class="category-item" id="hospital">병원</button
+                ><button class="category-item" id="shop">용품샵</button
+                ><button class="category-item" id="playground">운동장</button
+                ><button class="category-item" id="cafe">카페</button
+                ><button class="category-item" id="hairsalon">미용실</button
+                ><button class="category-item" id="school">유치원</button
+                ><button class="category-item" id="ets">기타</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 카테고리 -->
+        <div class="inner">
+          <div id="map" style="width: 1655px; height: 900px;"></div>
+        </div>
+      </section>
+
+        <!-- 카카오지도 -->
+    </main>
+    </section>
+
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7d056561c91a1ad857408a8b4385010d&libraries=services"
+    ></script>
+    <script src="./mapscript.js"></script>
+  </body>
+</html>
