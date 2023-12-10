@@ -1,0 +1,134 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Vidaloka', sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+  
+.header{
+    position: fixed;
+    top: 0; left: -100px; right: 0px;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+  
+.header .logo{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.highallday{
+    position: relative;
+    width: 110px;
+}
+
+.highlogo{
+    position: relative;
+    width: 30px;
+}
+  
+.header .logo i{
+    color: var(--secondary);
+    padding-right: .5rem;
+}
+  
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--black);
+    margin: 0 1rem;
+}
+  
+.header .navbar a:hover{
+    color: var(--primary-color);
+}
+  
+.header .icons a{
+    font-size: 1.7rem;
+    margin-left: 1.7rem;
+    color: var(--black)
+}
+  
+.header .icons div:hover{
+    color: var(--primary-color)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heart {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 1000px;
+}
+
+.plan{
+    font-size: 60px;
+    text-align: center;
+    margin-top: -74px;
+    margin-left: 1000px;
+}
+
+.plan_name{
+    position: relative;
+    top: 130px;
+    display: flex;
+    width: 1280px;
+    background: #fbf1d8;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1400px;
+    margin-top: 100px;
+    margin-left: 450px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-item {
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+label {
+    background-color: #fbf1d8;
+    color: #000;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label {
+    background-color: #f3921a; /* 체크된 상태일 때 배경색 변경 */
+}
+
+.more_plan{
+    font-size: 70px;
+    text-align: right;
+    margin-top: -152px;
+    margin-right: 300px;
+}

@@ -1,0 +1,207 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Vidaloka', sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+  
+.header{
+    position: fixed;
+    top: 0; left: -100px; right: 0px;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+  
+.header .logo{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.highallday{
+    position: relative;
+    width: 110px;
+}
+
+.highlogo{
+    position: relative;
+    width: 30px;
+}
+  
+.header .logo i{
+    color: var(--secondary);
+    padding-right: .5rem;
+}
+  
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--black);
+    margin: 0 1rem;
+}
+  
+.header .navbar a:hover{
+    color: var(--primary-color);
+}
+  
+.header .icons a{
+    font-size: 1.7rem;
+    margin-left: 1.7rem;
+    color: var(--black)
+}
+  
+.header .icons div:hover{
+    color: var(--primary-color)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heart {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 1000px;
+}
+
+.more_plan {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.plan{
+    font-size: 60px;
+    text-align: center;
+    margin-top: -74px;
+    margin-left: 1000px;
+}
+
+.plan_name{
+    position: relative;
+    top: 120px;
+    display: flex;
+    width: 640px;
+    background: #fbf1d8;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-left: 400px;
+    font-size: 22px;
+}
+
+.plan_date{
+    position: relative;
+    top: 90px;
+    display: flex;
+    width: 640px;
+    background: #fbf1d8;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-left: 1300px;
+}
+
+.date {
+    font-size: 25px;
+}
+
+.date2 {
+    font-size: 25px;
+}
+
+.inner {
+    padding: 0 1.5rem;
+  }
+  
+  @media all and (min-width: 1024px) {
+    .inner {
+      max-width: px;
+      margin: 0 auto;
+    }
+  }
+
+
+  .circle-plus {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: rgb(83, 58, 10);
+    cursor: pointer;
+    z-index: 1001; /* 기존 z-index 값보다 큰 값으로 변경 */
+}
+
+#map {
+  flex-grow: 1;
+  width: 100%;
+  height: calc(100% - 59px);
+  margin-left: auto; /* 자동으로 왼쪽 여백을 조절 */
+  margin-top: 0; /* 상단 여백을 0으로 설정 */
+}
+
+  
+  /* 카카오맵 CSS */
+  
+  body {
+    height: 100vh;
+  }
+  
+  nav {
+    height: 59px;
+  }
+  
+  main {
+    padding-top: 1.5rem;
+    height: calc(100% - 59px);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #map {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    margin-left: 1200px;
+    margin-top: 200px;
+  }
+  
+  /*인포윈도우*/
+  .infowindow {
+    width: 25rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .infowindow-img-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .infowindow-img {
+    width: 100%;
+  }
+  
+  .infowindow-title {
+    font-size: 2rem;
+  }
+  
+  .infowindow-address {
+    font-size: 1.6rem;
+  }
+  
+  .infowindow-btn {
+    font-size: 1.6rem;
+  }
+
